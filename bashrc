@@ -86,3 +86,61 @@ function proxy_off(){
 }
 
 proxy_on 
+
+############
+# ALIASY
+############
+
+# Control cd command behavior
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../../..'
+alias .4='cd ../../../../'
+alias .5='cd ../../../../../'
+
+# Cotrol grep command output
+alias grep='grep --color=auto'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+
+# Start calculator with math support
+alias bc='bc -l'
+
+# Create parent directories on demand
+alias mkdir='mkdir -pv'
+
+# Colorize diff output
+alias diff='colordiff'
+
+# Make mount command output pretty and human readable format 
+alias mount='mount |column -t'
+
+# Command short cuts to save tiem 
+alias h='history'
+alias j='jobs -l'
+
+# Create a new set of commands
+alias path='echo -e ${PATH//:/\\n}'
+alias now=' date +"%T"'
+alias nowtime=now
+alias nowdate='date +"%d-%m-%Y"'
+
+# Pass halt/reboot via sudo
+alias reboot='sudo /sbin/reboot'
+alias poweroff='sudo /sbin/poweroff'
+alias halt='sudo /sbin/halt'
+alias shutdown='sudp /sbin/shutdown'
+
+# Colorize the ls output ##
+alias ls='ls --color=auto'
+alias ll='ls -l'
+alias la='ls -a'
+alias lla='ls -al'
+
+# show hidden files ##
+alias l.='ls -d .* --color=auto'
+
+alias yum='sudo yum install'
+alias c='clear'
+
+
