@@ -1,0 +1,21 @@
+# Easier navigation
+alias ..="cd .." 
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias -- -="cd -"
+
+# Shortcuts 
+alias dw="cd ~/Downloads"
+alias dt="cd ~/Desktop"
+alias g="git"
+alias h="history"
+alias j="jobs"
+alias v="vim"
+alias l="ls -lF"
+alias la="ls -laF"  # List in long fomrat, include dotfiles
+alias ld="ls -ld" # List in long format, only directories
+
+# Get week number 
+alias week="date =%W"
+
+
