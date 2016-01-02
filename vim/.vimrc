@@ -18,3 +18,14 @@ syntax on
 set showmatch
 
 
+"===================================
+" Interface 
+"===================================
+set cursorline
+set ruler
+set number
+set wildmenu
+set wildmode=list:longest,full
+set relativenumber
+set shortmess=atI
+set laststatus=2
