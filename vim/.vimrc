@@ -29,3 +29,13 @@ set wildmode=list:longest,full
 set relativenumber
 set shortmess=atI
 set laststatus=2
+"===================================
+" Navigation mappings 
+"===================================
+map <C-h> <C-w>h
+map <C-j> <C-w>j
+map <C-k> <C-w>k
+map <C-l> <C-w>l
+
+nnoremap j gj
+nnoremap k gk
