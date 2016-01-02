@@ -4,6 +4,7 @@
 " Vim-plug setup
 "===================================
 call plug#begin()
+	Plug 'bling/vim-airline'
 	Plug 'morhetz/gruvbox'
 call plug#end()
 
@@ -39,3 +40,8 @@ map <C-l> <C-w>l
 
 nnoremap j gj
 nnoremap k gk
+"===================================
+" Plugins configuration 
+"===================================
+let g:airline_powerline_fonts = 1
+
