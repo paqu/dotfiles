@@ -4,6 +4,7 @@
 " Vim-plug setup
 "===================================
 call plug#begin()
+	Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
 	Plug 'bling/vim-airline'
 	Plug 'morhetz/gruvbox'
 	Plug 'Valloric/YouCompleteMe',{'do': './install.py --clang-comploter --omnisharp-completer --gocode-completer --term-completer'}
@@ -17,6 +18,8 @@ colorscheme gruvbox
 set background=dark
 syntax on 
 " hilight matching brackets
+
+set nocompatible
 set showmatch
 
 
@@ -54,3 +57,6 @@ let g:ycm_always_populate_location_list = 1
 let g:ycm_confirm_extra_conf = 0
 let g:ycm_autoclose_preview_window_after_completion = 1
 let g:ycm_autoclose_preview_window_after_insertion = 1
+
+let g:ycm_key_list_select_completion = ['<C-TAB>', '<Down>']
+let g:ycm_key_list_previous_completion = ['<C-S-TAB>', '<Up>']
