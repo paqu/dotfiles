@@ -20,3 +20,7 @@ export PATH=~/bin:$PATH
 
 # Grunt auto completion
 eval "$(grunt --completion=bash)"
+
+export VISUAL=vim
+export EDITOR="$VISUAL"
+
